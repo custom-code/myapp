@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/base_title_height"
+                android:padding="@dimen/default_layout_padding"
+                android:background="@color/main_title_background">
+
+    <TextView
+            android:id="@+id/base_title_back"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="返回"
+            android:drawableLeft="@drawable/back_button_selector"
+            android:gravity="center"/>
+
+    <Button
+            android:id="@+id/base_title_button"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/submit_button_selector"
+            android:gravity="center"
+            android:visibility="gone"
+            android:text="这是按钮"/>
+
+    <TextView
+            android:id="@+id/base_title_title"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="这是标题"/>
+
+    <ImageView
+            android:id="@+id/base_title_message"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/message_button_selector"/>
+</RelativeLayout>
